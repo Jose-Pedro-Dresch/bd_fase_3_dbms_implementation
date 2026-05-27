@@ -84,7 +84,7 @@ sudo -u postgres psql -d linkedin
 Exemplo de consulta:
 
 ```sql
-SELECT * FROM usuario;
+SELECT * FROM conta;
 ```
 
 Sair:
@@ -110,12 +110,6 @@ Copiar o backup para o projeto:
 
 ```bash
 sudo cp /tmp/backup.sql ./linkedin_db_backup/
-```
-
-Dar posse do arquivo ao usuário atual:
-
-```bash
-sudo chown $USER:$USER ./linkedin_db_backup/backup.sql
 ```
 
 ---
@@ -169,7 +163,7 @@ sudo -u postgres psql -d linkedin
 Executar uma consulta:
 
 ```sql
-SELECT * FROM usuario;
+SELECT * FROM conta;
 ```
 
 Sair:
