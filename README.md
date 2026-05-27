@@ -95,7 +95,9 @@ Sair:
 
 ---
 
-# 6. Gerar o backup lógico (Se você quiser, pois ele já está feito na pasta ./linkedin_bd_backup)
+# 6. Gerar o backup lógico
+
+(apenas se você quiser, pois o backup já está feito na pasta ./linkedin_bd_backup)
 
 O backup será salvo em `/tmp`, pois o usuário `postgres`
 possui permissão de escrita nessa pasta.
